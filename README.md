@@ -113,17 +113,6 @@ This project confirms that:
 
 ---
 
-## 📁 Repository Structure
-
-```bash
-├── AI_IN_RETAIL_PROJECT.ipynb    # Main source code (Jupyter Notebook)
-├── README.md                     # Project documentation
-├── dataset/
-│   └── online_shoppers_intention.csv
-└── results/
-    ├── confusion_matrix.png
-    ├── classification_report.txt
-    └── model_comparison.png
 ## 📂 Project Structure
 
 ```bash
