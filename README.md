@@ -121,6 +121,8 @@ This project confirms that:
 └── online_shoppers_intention.csv    # Dataset (Source: Kaggle)
 
 ```
+## 📚 Academic Declaration
+This project was developed as part of a college academic curriculum to gain hands-on experience in machine learning model development, evaluation, and comparative analysis using a real-world retail dataset.
 
 ## ⚙️ How to Run
 
