@@ -1,17 +1,17 @@
-# 🛒 Online Shoppers Purchase Intention Prediction
+# Online Shoppers Purchase Intention Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## 📌 Project Overview
+## Project Overview
 This repository contains an academic machine learning project focused on predicting whether an online shopper will make a purchase (**Revenue = True/False**) based on their browsing behavior.
 
 The project applies data preprocessing, exploratory data analysis (EDA), and multiple classification models, followed by a comparative performance evaluation to determine the most effective algorithm.
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 - To analyze real-world e-commerce user behavior data.
 - To preprocess and clean a structured retail dataset.
 - To implement multiple machine learning classification models.
@@ -20,7 +20,7 @@ The project applies data preprocessing, exploratory data analysis (EDA), and mul
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 **Dataset:** Online Shoppers Intention Dataset  
 **Source:** Kaggle  
 **Total Records:** ~12,000 user sessions  
@@ -37,7 +37,7 @@ The project applies data preprocessing, exploratory data analysis (EDA), and mul
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 The following steps were performed to ensure data quality and model reliability:
 1. **Cleaning:** Removal of duplicate entries.
 2. **Validation:** Checking for and handling missing values.
@@ -47,7 +47,7 @@ The following steps were performed to ensure data quality and model reliability:
 
 ---
 
-## 🧠 Machine Learning Models Implemented
+## Machine Learning Models Implemented
 The project focuses on the following classification algorithms:
 
 1. **Logistic Regression:** Used as a baseline model.
@@ -58,7 +58,7 @@ The project focuses on the following classification algorithms:
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 The models were evaluated using the following metrics:
 
 - **Accuracy:** Percentage of total predictions that were correct.
@@ -69,9 +69,9 @@ The models were evaluated using the following metrics:
 
 ---
 
-## 📊 Model Performance Results
+## Model Performance Results
 
-### 🔢 Classification Report Summary
+### Classification Report Summary
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: | :---: |
@@ -79,7 +79,7 @@ The models were evaluated using the following metrics:
 | **Decision Tree** | 0.86 | 0.73 | 0.68 | 0.70 |
 | **Random Forest** | **0.90** | **0.84** | **0.71** | **0.77** |
 
-### 📌 Interpretation of Results
+### Interpretation of Results
 
 1.  **Logistic Regression**
     * Performs well as a baseline model.
@@ -96,8 +96,8 @@ The models were evaluated using the following metrics:
 
 ---
 
-## 🏆 Final Conclusion
-✅ **Random Forest Classifier is the best-performing model for this dataset.**
+## Final Conclusion
+ **Random Forest Classifier is the best-performing model for this dataset.**
 
 This project confirms that:
 * Ensemble methods outperform single estimators in complex classification tasks.
@@ -106,14 +106,14 @@ This project confirms that:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 * **Language:** Python
 * **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
 * **Environment:** Jupyter Notebook
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 ├── AI_IN_RETAIL_GRP_PROJECT.ipynb  # Main Analysis & Modeling Notebook
@@ -121,10 +121,10 @@ This project confirms that:
 └── online_shoppers_intention.csv    # Dataset (Source: Kaggle)
 
 ```
-## 📚 Academic Declaration
+## Academic Declaration
 This project was developed as part of a college academic curriculum to gain hands-on experience in machine learning model development, evaluation, and comparative analysis using a real-world retail dataset.
 
-## ⚙️ How to Run
+## How to Run
 
 1. Clone the repository:
 ```bash
